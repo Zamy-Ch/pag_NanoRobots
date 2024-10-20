@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fbf2ab;
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.titulo {
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #DB5A42;
+    font-size: 60px;
+  }
+  
+.titulo {
+    font-family: "Agdasima", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .titulo1 {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    padding: 10px;
+    color: #DB5A42;
+  }
+  
+  
+  .part1{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .lista{
+    text-align: center;
+  }
+
+  nav ul{
+    list-style: none;
+    padding: 0;
+  }
+
+  nav ul li{
+    display: inline;
+    margin: 50px;
+  }
+.boton{
+    display: inline-block;
+    text-decoration: none;
+    color: #DB5A42;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+.boton:hover{
+    background-color: #DB5A42;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.img1{
+    background-color: #fbf2ab;
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;        
+}
+
+main{
+    padding: 10px;
+    background-image: url(../Img/Fondo.jpg);
+    background-size: 100%;
+}
+section{
+    background-color: #fbf2ab;
+    padding: 20px;
+}
+
+.text{
+    padding: 10px;
+    text-align: left;
+    font-family: "Comic Neue", cursive;
+    font-weight: 300;
+    font-style: normal;
+    border: #DB5A42 solid 2px;
+}
+.team{
+    padding: 15px;
+    display: flex;
+    gap: 5px;
+}
+.g{
+    width: 150px;
+    height: auto;
+}
+
+
+
+.i{
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    text-align: center;
+    border: #DB5A42 solid 8px;
+}
+
+.cadena{
+  display: flex;
+}
+.im{
+  width:140px;
+}
+.ig1{
+  padding: 5px;
+  display: flex;
+}
+
+.celdas{
+  display: flex;
+    gap: 30px;
+    padding: 20px;
+    background-color: aliceblue;
+    border: #DB5A42 solid 1px;
+}
+.cad{
+  flex: 1;
+  padding: 20px;
+  color:#aa2f19;
+  text-align: center;
+  background-color: #fbf2ab;
+}
+
+footer{
+  background-color: #f0583e;
+  position: relative;
+  padding: 20px;
+}
+.nots{
+  margin: 0 15px;
+  height: auto;
+  align-items: center;
+  margin-left: 400px;
+}
+
+.ig{
+  width: 150px;
+}
+.x{
+  width: 70px;
+  padding: 10px;
+}
+.you{
+  width: 100px;
+  padding-left: 30px;
+
+}
